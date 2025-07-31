@@ -1,0 +1,21 @@
+gpu:
+  habilitada: true
+  memoria_limite: 22528
+
+data:
+  ruta_historico: "data/historico_loteria.csv"
+  ruta_resultados: "data/resultados/"
+  nombre_archivo: "combinaciones_optimas_{fecha}.csv"
+
+modelo:
+  num_numeros: 49
+  atencion_quantica: true
+
+entrenamiento:
+  epocas: 100
+  tamaño_batch: 1
+
+optimizacion:
+  num_combinaciones: 10
+  poblacion: 200
+  iteraciones: 500
